@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.7">
+    <Name>Hotel del Coronado</Name>
+    <Phone>619-435-6611</Phone>
+    <Phone>800-468-3533</Phone>
+    <Address NearstAirport="San Diego International">
+      <Number>1500</Number>
+      <Street>Orange Avenue</Street>
+      <City>Coronado</City>
+      <State>CA</State>
+      <Zip>92118</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="5.0">
+    <Name>The Beverly Hills Hotel</Name>
+    <Phone>310-276-2251</Phone>
+    <Address NearstAirport="Los Angeles International">
+      <Number>9641</Number>
+      <Street>Sunset Boulevard</Street>
+      <City>Beverly Hills</City>
+      <State>CA</State>
+      <Zip>90210</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Montage Laguna Beach</Name>
+    <Phone>866-271-6953</Phone>
+    <Phone>949-715-6000</Phone>
+    <Address NearstAirport="John Wayne Airport">
+      <Number>30801</Number>
+      <Street>South Coast Highway</Street>
+      <City>Laguna Beach</City>
+      <State>CA</State>
+      <Zip>92651</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.5">
+    <Name>Terranea Resort</Name>
+    <Phone>310-265-2800</Phone>
+    <Address NearstAirport="Los Angeles International">
+      <Number>100</Number>
+      <Street>Terranea Way</Street>
+      <City>Rancho Palos Verdes</City>
+      <State>CA</State>
+      <Zip>90275</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Kimpton Hotel Palomar San Diego</Name>
+    <Phone>619-515-3000</Phone>
+    <Address NearstAirport="San Diego International">
+      <Number>1047</Number>
+      <Street>5th Avenue</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92101</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.6">
+    <Name>The Ritz-Carlton Laguna Niguel</Name>
+    <Phone>949-240-2000</Phone>
+    <Phone>800-241-3333</Phone>
+    <Address NearstAirport="John Wayne Airport">
+      <Number>1</Number>
+      <Street>Ritz Carlton Drive</Street>
+      <City>Dana Point</City>
+      <State>CA</State>
+      <Zip>92629</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.4">
+    <Name>Hyatt Regency Huntington Beach</Name>
+    <Phone>714-698-1234</Phone>
+    <Address NearstAirport="John Wayne Airport">
+      <Number>21500</Number>
+      <Street>Pacific Coast Highway</Street>
+      <City>Huntington Beach</City>
+      <State>CA</State>
+      <Zip>92648</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Omni La Costa Resort</Name>
+    <Phone>760-438-9111</Phone>
+    <Address NearstAirport="San Diego International">
+      <Number>2100</Number>
+      <Street>Costa Del Mar Road</Street>
+      <City>Carlsbad</City>
+      <State>CA</State>
+      <Zip>92009</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.3">
+    <Name>Loews Santa Monica Beach Hotel</Name>
+    <Phone>310-458-6700</Phone>
+    <Phone>800-235-6397</Phone>
+    <Address NearstAirport="Los Angeles International">
+      <Number>1700</Number>
+      <Street>Ocean Avenue</Street>
+      <City>Santa Monica</City>
+      <State>CA</State>
+      <Zip>90401</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.8">
+    <Name>Pendry San Diego</Name>
+    <Phone>619-738-7000</Phone>
+    <Address NearstAirport="San Diego International">
+      <Number>550</Number>
+      <Street>J Street</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92101</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
