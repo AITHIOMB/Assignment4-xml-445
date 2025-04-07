@@ -12,9 +12,9 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  
   <Hotel Rating="4.7">
     <Name>Hotel del Coronado</Name>
+    <!-- Error #3: Missing Phone element -->
     <Address NearstAirport="San Diego International">
       <Number>1500</Number>
       <Street>Orange Avenue</Street>
@@ -23,21 +23,22 @@
       <Zip>92118</Zip>
     </Address>
   </Hotel>
-  
   <Hotel Rating="5.0">
     <Name>The Beverly Hills Hotel</Name>
     <Phone>310-276-2251</Phone>
     <Address>
+      <!-- Error #2: Missing required NearstAirport attribute -->
       <Number>9641</Number>
       <Street>Sunset Boulevard</Street>
       <City>Beverly Hills</City>
       <State>CA</State>
       <Zip>90210</Zip>
+    </Address>
   </Hotel>
-  
   <Hotel>
     <Name>Montage Laguna Beach</Name>
     <Name>Montage Laguna Beaches</Name>
+    <!-- Error #5: Two Name elements -->
     <Phone>866-271-6953</Phone>
     <Phone>949-715-6000</Phone>
     <Address NearstAirport="John Wayne Airport">
@@ -48,18 +49,17 @@
       <Zip>92651</Zip>
     </Address>
   </Hotel>
-  
   <Hotel Rating="4.5">
     <Name>Terranea Resort</Name>
     <Phone>310-265-2800</Phone>
     <Address NearstAirport="Los Angeles International">
+      <!-- Error #4: No closing tag for Address -->
       <Number>100</Number>
       <Street>Terranea Way</Street>
       <City>Rancho Palos Verdes</City>
       <State>CA</State>
       <Zip>90275</Zip>
-    </Address>
-  </Hotel>
+    </Hotel>
   
   <Hotel>
     <Name>Kimpton Hotel Palomar San Diego</Name>
