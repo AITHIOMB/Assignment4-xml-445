@@ -12,9 +12,9 @@ namespace ConsoleApp1
     public class Program
     {
         // These URLs will be read by my gradescope
-        public static string xmlURL = "";
-        public static string xmlErrorURL = "";
-        public static string xsdURL = "";
+        public static string xmlURL = "aithiomb.github.io/";
+        public static string xmlErrorURL = "aithiomb.github.io/";
+        public static string xsdURL = "aithiomb.github.io/";
 
         public static void Main(string[] args)
         {
