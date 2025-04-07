@@ -77,7 +77,7 @@ namespace ConsoleApp1
 
         // This is the method to convert XML to JSON 
        public static string Xml2Json(string xmlUrl)
-        {
+       {
             try
             {
                 // Download XML content
