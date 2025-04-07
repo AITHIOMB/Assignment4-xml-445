@@ -76,23 +76,21 @@ namespace ConsoleApp1
         }
 
         // This is the method to convert XML to JSON 
-        public static string Xml2Json(string xmlUrl)
+       public static string Xml2Json(string xmlUrl)
         {
             try
             {
-                // Download XML content process
-                string xmlContent;
-                using (WebClient client = new WebClient())
-                {
-                    xmlContent = client.DownloadString(xmlUrl);
-                }
-
-                // Load XML process
+                // Download XML content
+                WebClient client = new WebClient();
+                string xmlContent = client.DownloadString(xmlUrl);
+                
+                // Load XML
                 XmlDocument doc = new XmlDocument();
                 doc.LoadXml(xmlContent);
-
-                // Convert to JSON process
-                string jsonText = JsonConvert.SerializeXNode(doc, Formatting.Indented, true);
+                
+                // Convert to JSON with the specific format required by the assignment
+                string jsonText = JsonConvert.SerializeXmlNode(doc, Formatting.Indented, false);
+                
                 return jsonText;
             }
             catch (Exception ex)
